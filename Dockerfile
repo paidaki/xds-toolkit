@@ -8,4 +8,4 @@ WORKDIR /usr/local/tomcat/webapps
 
 COPY xdstools7.1.1.war ./xdstools7.war
 
-RUN unzip xdstools7.war
+RUN unzip -d xdstools7 xdstools7.war
