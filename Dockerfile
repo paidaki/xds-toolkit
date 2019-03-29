@@ -6,6 +6,6 @@ RUN apk --no-cache update \
 
 WORKDIR /usr/local/tomcat/webapps
 
-COPY xdstools7.1.2.war ./xdstools7.war
+COPY xdstools7.2.1.war ./xdstools7.war
 
 RUN unzip -d xdstools7 xdstools7.war
